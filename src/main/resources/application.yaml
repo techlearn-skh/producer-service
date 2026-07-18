@@ -53,7 +53,7 @@ server:
 
   management:
     endpoints:
-      enabled-by-default: true
+      enabled-by-default: false
       web:
         exposure:
           include: health,info,metrics,env
